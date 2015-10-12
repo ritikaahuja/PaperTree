@@ -1,0 +1,317 @@
+bg
+{
+    background-image:url('bg11.jpg');
+}
+
+for_design
+{	
+    font-family: 'Open Sans', sans-serif;
+    font-size:medium;
+}
+
+#sign_out
+{
+    background-color:inherit;
+    border:none;
+    text-align:center;
+    font-size:26px;
+    padding-left:1500px;
+    padding-top:25px;	
+}
+
+#logo
+{
+    height:200px;
+    width:200px;
+    margin:auto;
+    color:black;	
+}
+
+#info_panel
+{
+    font-family: 'Open Sans', sans-serif;
+    position:relative;
+    Padding-top:20px;
+    padding-left:20px;
+    padding-bottom:20px;
+    margin-right:30px;
+    margin-top:20px;
+    margin-left:30px;
+    margin-bottom:30px;
+    background-image:url('../../Downloads/transparent.png');
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width:auto;
+    z-index:99;
+    alignment:center;	
+}
+
+#main_panelR
+{
+    margin:auto;
+    background-image:url('red-waves-background  transparent2.png');
+    background-repeat:repeat;
+    width:1100px;
+    height:1000px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#main_panel
+{
+    float:left;	
+    background-image:url('red-waves-background  transparent2.png');
+    background-repeat:repeat;
+    width:1100px;
+    height:1000px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#rec_panel
+{
+    background-image:url('red-waves-background  transparent2.png');
+    width:650px;
+    height:1000px;
+    float:right;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;	
+}
+
+body
+{
+    background-image: url('research-wallpaper-2400x1350.jpg');
+    font-size:26px;
+    line-height: 32px;
+    color: #ffffff;
+    word-wrap:break-word !important;
+    font-famiy: 'Open Sans', sans-serif;
+}
+
+#container
+{
+    margin: 0 auto;
+    max-width: 1790px;
+    min-width:1790px;
+}
+
+p 
+{
+    text-align: center;
+}
+
+nav 
+{ 
+    margin: 50px 0;
+    background-color: #E64A19;
+}
+
+nav ul 
+{
+    padding-left:50px;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+	
+nav ul li
+{
+    display:inline-block;
+    background-color: #E64A19;
+}
+
+nav a
+{
+    display:block;
+    padding:0 10px;	
+    color:#FFF;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+nav a:hover
+{ 
+    background-color: #000000; 
+}
+
+form 
+{
+    width: 90%;
+    margin:auto;
+}
+
+label, input
+{
+    /* in order to define widths */
+    display: inline-block;
+}
+
+label
+{
+    width: 30%;
+    /* positions the label text beside the input */
+    text-align: left;
+    padding-left:110px;
+    padding-top:20px;
+    font-size:x-large;
+}
+
+label + input
+{
+    width: 40%;
+    /* large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+    margin: 0 15% 0 4%;    
+}
+
+label + textarea
+{
+    width: 40%;
+    /* large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+    margin: 0 15% 0 4%;
+}
+
+/* only the submit button is matched by this selector,
+   but to be sure you could use an id or class for that button */
+input + input
+{
+    float: right;
+}
+
+#box1
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-famiy: 'Open Sans', sans-serif;
+    height:30px;
+}
+
+#box
+{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-famiy: 'Open Sans', sans-serif;
+    height:30px;
+}
+
+.btn
+{
+    background: #FF8000;
+    background-image: -webkit-linear-gradient(top, #FF8000, #FF8000);
+    background-image: -moz-linear-gradient(top, #FF8000, #FF8000);
+    background-image: -ms-linear-gradient(top, #FF8000, #FF8000);
+    background-image: -o-linear-gradient(top, #FF8000, #FF8000);
+    background-image: linear-gradient(to bottom, #FF8000, #FF8000);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    text-shadow: 1px 1px 3px #666666;
+    -webkit-box-shadow: 0px 0px 12px #fffcff;
+    -moz-box-shadow: 0px 0px 12px #fffcff;
+    box-shadow: 0px 0px 12px #fffcff;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none; 
+}
+
+.btn:hover 
+{
+    background: #3cb0fd; 
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+#search_text
+{	
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display:inline-block;	
+}
+
+.myButton
+{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    display:inline-block;
+    background-color:white;
+    font-size:large;
+    border:5px;
+    height:30px;
+    color:#E64A19;
+	
+    margin-top:1px;
+    border-color:#000000;
+    font-famiy: 'Open Sans', sans-serif;
+    margin-right:0px;
+    white-space:50px;
+}
+
+
+.toggle-box
+{
+    display: none;
+}
+
+.toggle-box + label
+{
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+
+.toggle-box + label + div
+{
+    display: none;
+    margin-bottom: 10px;
+}
+
+.toggle-box:checked + label + div
+{
+    display: block;
+    background-color:#FF874D;
+}
+
+.toggle-box + label:before
+{
+    background-color: #4F5150;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    content: "+";
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+.toggle-box:checked + label:before
+{
+     content: "\2212";
+}

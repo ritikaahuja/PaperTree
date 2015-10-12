@@ -1,0 +1,152 @@
+﻿#bg
+{
+        background-image:url('research-wallpaper-2400x1350.jpg');
+        background-position:center;
+        background-repeat:no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	max-height:1000px;
+	max-width: 100%;
+        height:auto;
+}
+
+/*#app_name
+{
+    display: block;
+background-image:url('logo.png');
+background-repeat:no-repeat;
+min-height:300px;
+min-width:300px;
+max-height:300px;
+max-width:250px;
+}*/
+
+.logo-img
+{
+        max-width: 500px;
+        height: auto;
+        max-height: 250px;
+}
+
+.login_panel
+{
+	position:inherit;
+	background:#FFCC66;
+	margin:40px 250px 250px 570px;
+	margin-bottom:auto;
+        margin-left: auto ;
+        margin-right: auto ;
+	border:1500px;
+	vertical-align:middle;
+	border-color:black;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+	height:370px;
+	width:690px;
+}
+#signup{
+    height: 570px !important;
+    width: 800px !important;
+}
+.login_text
+{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	font-weight:bold;
+	position:relative;
+        font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	font-color:#000000;
+	background:#7BF0AA;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:302px;
+}
+
+.label
+{
+	position:relative;
+	font-size:medium;
+	font-weight:600;
+        font-family:Arial, Helvetica, sans-serif;
+        padding-left:90px;
+        padding-top:10px;
+}
+
+.text_box
+{
+	margin-left:-100px;
+        height:30px;
+        width:350px;
+        padding: 10px;
+        border: none;
+        padding: 10px;
+        /*  border: none;
+        border-bottom: solid 2px #c9c9c9;
+        transition: border 0.3s;*/
+        background-color:white;
+}
+
+.button_text
+{
+        position: relative;
+        vertical-align: top;
+        height: 40px;
+        padding: 0;
+        font-size: 18px;
+        color: white;
+        width:170px;
+        margin-top:35px;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+        background: #f1c40f;
+        border: 0;
+        border-bottom: 2px solid #e2b607;
+        cursor: pointer;
+        -webkit-box-shadow: inset 0 -2px #e2b607;
+        box-shadow: inset 0 -2px #e2b607;
+}
+
+#button_text:active
+{
+        top: 1px;
+        outline: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+}
+
+#link1
+{
+	margin-top:50px;
+	margin-left:50px;
+}
+
+#links
+{
+	font-size:20px;
+	font-color:black;
+	text-decoration:none;
+	link:black;
+	visited:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
