@@ -1,0 +1,201 @@
+<!-- 
+
+Project Codename: Papertree
+Codding By Anjali Verma
+Version 1.0
+
+(In Development Phase)
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<script>
+            <a href="Forgot.html"></a>
+function checkEmail(a)
+{
+    var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    var reg1=/([^\s])/;
+    if(a.value==="" || reg1.test(a.value)==false)
+    {
+ document.getElementById("emaill").innerHTML = "Field Cannot Be Left Blank";
+ a.focus();
+ document.getElementById("submit").disabled=true;
+    }
+ else if (reg.test(a.value)=== true) 
+ {
+     
+ document.getElementById("submit").disabled=false;
+ }
+ else
+ {
+     document.getElementById("email1").innerHTML = "Incorrect Email Format!!";
+     a.focus();
+     document.getElementById("submit").disabled=true;
+   }
+}
+
+
+function checkName(a)
+{
+    var reg=/([^\s])/;
+    if(a.value=="" || reg.test(a.value)==false)
+    {
+        document.getElementById("namel").innerHTML = "Incorrect Name";
+     a.focus();
+     document.getElementById("submit").disabled=true;
+    }
+    else
+    {
+        
+        document.getElementById("submit").disabled=false;
+    }
+        
+}
+function checkJob(a)
+{
+    var reg=/([^\s])/;
+    if(a.value=="" || reg.test(a.value)==false)
+    {
+        document.getElementById("jobl").innerHTML = "Incorrect Name";
+     a.focus();
+     document.getElementById("submit").disabled=true;
+    }
+    else
+    {
+        
+        document.getElementById("submit").disabled=false;
+    }
+        
+}
+
+ function checkOrg(a)
+{
+    var reg=/([^\s])/;
+    if(a.value=="" || reg.test(a.value)==false)
+    {
+        document.getElementById("orgl").innerHTML = "Incorrect Name";
+     a.focus();
+     document.getElementById("submit").disabled=true;
+    }
+    else
+    {
+        
+        document.getElementById("submit").disabled=false;
+    }
+        
+}
+
+function checkInterests(a)
+{
+    var reg=/([^\s])/;
+    if(a.value=="" || reg.test(a.value)==false)
+    {
+        document.getElementById("interestsl").innerHTML = "Incorrect Name";
+     a.focus();
+     document.getElementById("submit").disabled=true;
+    }
+    else
+    {
+        
+        document.getElementById("submit").disabled=false;
+    }
+        
+}
+
+function checkPass(a)
+{
+    var reg=/([^\s])/;
+    if(a.value=="" || reg.test(a.value)==false || a.value.length<8 || a.value.length>26)
+    {
+        document.getElementById("passwordl").innerHTML = "Incorrect Password (minimum length is 8 and maximum length is 26)";
+     a.focus();
+     document.getElementById("submit").disabled=true;
+    }
+    else
+    {
+        document.getElementById("passwordl").innerHTML = "Valid Password";
+        document.getElementById("submit").disabled=false;
+    }
+        
+}
+
+function checkRpass(a)
+{
+    var reg=/([^\s])/;
+    var pass=document.getElementById("rpassword");
+    if(a.value=="" || reg.test(a.value)==false || a.value.length<8 || a.value.length>26)
+    {
+        document.getElementById("rpasswordl").innerHTML = "Incorrect Password (minimum length is 8 and maximum length is 26)";
+     a.focus();
+     document.getElementById("submit").disabled=true;
+    }
+    else if(a.value===pass.value)
+    {
+        document.getElementById("rpasswordl").innerHTML = "Password Match";
+    document.getElementById("submit").disabled=false;
+    }
+    else
+    {
+        document.getElementById("rpasswordl").innerHTML = "Passwords Do Not Match";
+   document.getElementById("submit").disabled=true;
+        }   
+}
+
+</script>
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<title>PaperTree</title>
+
+<!---------------------------- CSS ------------------------------------------>
+
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+	
+<!---------------------------- CSS ------------------------------------------>
+
+<!---------------------------- JS ------------------------------------------->
+
+	<script src="js/jquery.js"></script>
+	<script src="js/tabs.js"></script>
+	
+	
+
+<!---------------------------- JS ------------------------------------------->
+
+</head>
+
+<body style="background:url('images/bg.jpg') 0px 150px no-repeat">
+		<header>
+			<div id="pre-header">
+				<div class="logo"><a href="#"><img src="images/logo.png" class="" alt=""></a></div>
+				<div class="user-sect">
+					<span class="user-details"> <h1>Hi,</h1> <h2></h2></span>
+					<div class="clearfix"></div>
+                                        <span class="user-set"><a href="#"></a>&nbsp;&nbsp; <a href="#"></a></span>
+				</div>
+			</div>
+		</header>
+	
+	<div id="page-frame">
+			<h1 class="frame-title">Need Help ?</h1>
+            <form  method="post" action="mail" class="recover"> 
+                <div class="recover-field">
+            		<p>Enter your e-mail associated with your paper tree account in order to regain account access. A verification mail will be sent to your e-mail id to reset your account password.</p>
+            		
+	                <label for="email">Enter your Email Id:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+	                <input type="email" name="email" onchange='checkEmail(this);' onblur='checkEmail(this);'  onsubmit='checkEmail(this);' id="email" class="recover-field-email">            
+					<br><br>
+	                
+	                <div style="width:200px;text-align:center;margin:20px auto 0px auto">
+		                <input type="submit" name="Submit" value="SUBMIT" class="button">                                                                                                                       
+		                <input type="button" name="Clear" value="CLEAR" class="button">
+	                </div>
+                </div>                
+             </form>
+            
+	</div>
+		
+</body>
+</html>

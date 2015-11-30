@@ -1,0 +1,88 @@
+﻿<!-- 
+
+Project Codename: Papertree
+Codding By Anjali Verma
+Version 1.0
+
+(In Development Phase)
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+ 
+    function goToSearch(){
+location="Signup.html";
+}
+
+window.onload = function() {
+  var s=window.location.href;
+  s=s.replace("%20"," ");s=s.replace("%20"," ");s=s.replace("%20"," ");s=s.replace("%20"," ");s=s.replace("%20"," ");s=s.replace("%20"," ");s=s.replace("%20"," ");s=s.replace("%20"," ");s=s.replace("%20"," ");
+  
+  var n=s.indexOf("=");
+  var n1=s.length;
+  alert(s.substring(n+1,n1));
+  
+};
+
+
+    </script>
+
+<title>Welcome To PaperTree</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!---------------------------- CSS ------------------------------------------>
+
+	<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+	
+<!---------------------------- CSS ------------------------------------------>
+
+<!---------------------------- JS ------------------------------------------->
+
+  
+<!---------------------------- JS ------------------------------------------->
+
+</head>
+
+<body>
+	<div id="frame">
+		<header>
+			<div id="pre-header">
+                            <div class="logo"><a href="index.html"><img src="images/logo.png" class="" alt=""></a></div>
+			</div>
+		</header>
+		<div id="page">
+			<div class="int-slider"><img src="images/Slide1.jpg"></div>
+			<div class="int-loginbox">
+				<h1>Login</h1>
+                                <form action="SignIn.jsp" method="post">
+					<label>Email</label><input type="text" class="logtext" name='Email'>
+						<div class="clearfix"></div>
+					<label>Password</label><input type="text" class="logtext" name='Password'>
+						<div class="clearfix"></div>
+                                                <a href="Forgot.html" class="ft_pass"><aside style="font-size:8px;display:inline;">&lowast;&nbsp;</aside>Forgot Password</a>
+						<div class="clearfix"></div>
+                                                <div class="log_but"><input type="button" value="Signup" onclick='goToSearch()'><input type="submit" value="Login" style="margin-right:0px;"></div>
+                                        <label id="érr"></label>
+				</form>
+			</div>						
+		</div>
+		
+		<div class="clearfix"></div>
+	<div id="int_footer">
+	
+		<div id="navigation">
+			<ul>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	
+	</div>
+		
+	</div>	
+</body>
+
+</html>
+    
